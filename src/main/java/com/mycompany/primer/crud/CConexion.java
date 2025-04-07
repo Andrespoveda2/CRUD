@@ -13,7 +13,7 @@ public class CConexion {
     String usuario = "root";
     String contrasenia = "12345";
     String db = "dbescuela";
-    String ip = "127.0.0.1";
+    String ip = "localhost";
     String puerto = "3306";      
     String cadena = "jdbc:mysql://"+ip+":"+puerto+"/"+db;
     public Connection establecerConexion (){
